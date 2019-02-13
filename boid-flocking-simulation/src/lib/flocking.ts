@@ -1,11 +1,22 @@
 import { Particle } from './particle';
-import { Context2D } from './context-2d';
+import { Context2D } from './../../../shared/context-2d';
 
+/**
+ * @name Flocking
+ * 
+ * @author Bert Maurau
+ * 
+ * @description Main class for handling the simulation/virtualization
+ */
 export class Flocking extends Context2D {
 
     // holds the list of generated particles
     private flock: Array<Particle> = [];
 
+    /**
+     * Construct this with the given canvas element
+     * @param {HTMLCanvasElement} canvas 
+     */
     constructor(canvas: HTMLCanvasElement) {
 
         // init the Context class
@@ -17,10 +28,10 @@ export class Flocking extends Context2D {
     }
 
     /**
-     * Override the main Context draw function that gets
-     * executed via the requestAnimationFrame()
+     * The draw function that gets executed via the requestAnimationFrame()
+     * @returns {void}
      */
-    protected draw() {
+    public draw(): void {
 
         // set the background
         this.context.fillStyle = "black";

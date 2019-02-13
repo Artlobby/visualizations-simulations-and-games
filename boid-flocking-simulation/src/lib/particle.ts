@@ -1,5 +1,12 @@
 import * as Vec2D from 'vector2d'
 
+/**
+ * @name Particle
+ * 
+ * @author Bert Maurau
+ * 
+ * @description Sub class for handling an individual Particle of the Flock
+ */
 export class Particle {
 
     // holds the particle's position
@@ -43,6 +50,7 @@ export class Particle {
 
     /**
      * Draw/render the particle on the set context
+     * @returns {void}
      */
     public render(): void {
         this.context.beginPath();
@@ -56,6 +64,7 @@ export class Particle {
 
     /**
      * Update the particle's position based on the veloctiy
+     * @returns {void}
      */
     public update(): void {
         this.position.add(this.velocity);
