@@ -1,5 +1,14 @@
 
-export class Context2D {
+/**
+ * @name Context2D
+ * 
+ * @author Bert Maurau
+ * 
+ * @description Main shared initializer and handler for the Canvas 2D Context.
+ * Initializes the given canvas-element, assigns the context and
+ * starts the requestAnimationFrame caller.
+ */
+export abstract class Context2D {
 
     // holds the html canvas element
     protected canvas: HTMLCanvasElement;
@@ -23,9 +32,8 @@ export class Context2D {
     }
 
     /**
-     * Base function that gets requested via requestAnimationFrame (Gets overriden)
+     * Base function that gets requested via requestAnimationFrame
+     * @returns {void}
      */
-    protected draw() {
-
-    }
+    abstract draw(): void;
 }
