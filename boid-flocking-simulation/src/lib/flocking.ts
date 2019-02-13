@@ -1,7 +1,7 @@
 import { Particle } from './particle';
-import { Context } from './context';
+import { Context2D } from './context-2d';
 
-export class Flocking extends Context {
+export class Flocking extends Context2D {
 
     // holds the list of generated particles
     private flock: Array<Particle> = [];
@@ -37,6 +37,3 @@ export class Flocking extends Context {
 
     }
 }
-
-let canvas = <HTMLCanvasElement>document.getElementById('canvas');
-new Flocking(canvas);

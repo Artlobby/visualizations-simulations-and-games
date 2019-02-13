@@ -4,12 +4,12 @@ export class Particle {
 
     // holds the particle's position
     private position: Vec2D.Vector;
-    
+
     // the velocity of the particle
     private velocity: Vec2D.Vector;
 
     // the acceleration
-    private acceleration: Vec2D.Vector = new Vec2D.Vector(0,0);
+    private acceleration: Vec2D.Vector = new Vec2D.Vector(0, 0);
 
     // the context to draw on
     private context: CanvasRenderingContext2D;
@@ -29,7 +29,7 @@ export class Particle {
         this.position = new Vec2D.Vector(positionX, positionY);
 
         // give it a random velocity
-        this.velocity =this.getRandomVector();
+        this.velocity = this.getRandomVector();
     }
 
     /**
@@ -37,7 +37,7 @@ export class Particle {
      * @returns {Vec2D.Vector} random vector
      */
     private getRandomVector(): Vec2D.Vector {
-        let value = (Math.floor(Math.random()*2) == 1 ? 1 : -1) * Math.random();
+        let value = (Math.floor(Math.random() * 2) == 1 ? 1 : -1) * Math.random();
         return new Vec2D.Vector(value, value);
     }
 

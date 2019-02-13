@@ -1,5 +1,5 @@
 
-export class Context {
+export class Context2D {
 
     // holds the html canvas element
     protected canvas: HTMLCanvasElement;

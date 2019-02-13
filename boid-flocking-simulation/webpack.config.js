@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/flocking.ts',
+  entry: './src/main.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
