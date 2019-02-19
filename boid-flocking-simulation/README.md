@@ -8,6 +8,11 @@ As with most artificial life simulations, Boids is an example of emergent behavi
  - alignment: steer towards the average heading of local flockmates
  - cohesion: steer to move towards the average position (center of mass) of local flockmates
 
+## Demo
+
+[Here](https://bertmaurau.be/projects/visualizations-and-simulations/boid-flocking-simulation/)
+
+
 ## Build
 
 ```

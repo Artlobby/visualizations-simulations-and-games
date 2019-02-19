@@ -8,6 +8,11 @@ This process results in a pattern of growth in which the number of segments at s
 
 All of the bounded regions surrounded by toothpicks in the pattern, but not themselves crossed by toothpicks, must be squares or rectangles. It has been conjectured that every open rectangle in the toothpick pattern (that is, a rectangle that is completely surrounded by toothpicks, but has no toothpick crossing its interior) has side lengths and areas that are powers of two, with one of the side lengths being at most two.
 
+## Demo
+
+[Here](https://bertmaurau.be/projects/visualizations-and-simulations/fractal-toothpick-sequence-visualization/)
+
+
 ## Build
 
 ```
