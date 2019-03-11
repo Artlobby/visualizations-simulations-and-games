@@ -29,6 +29,11 @@ export class Toothpicks extends Context2D {
         this.canvas.addEventListener('click', (event: MouseEvent) => {
             this.draw();
         });
+
+        // start timer to create new toothpicks
+        let timer = setInterval(() => {
+            this.draw();
+        }, 200);
     }
 
     /**
@@ -65,6 +70,9 @@ export class Toothpicks extends Context2D {
 
         // add all the new ones to the original list
         this.toothpicks = [...this.toothpicks, ...nextList];
+
+        // request next frame
+        // window.requestAnimationFrame(() => this.draw());
 
     }
 }
