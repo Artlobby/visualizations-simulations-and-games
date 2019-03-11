@@ -26,6 +26,10 @@ export abstract class Context2D {
         this.canvas = canvas;
         this.context = <CanvasRenderingContext2D>this.canvas.getContext('2d');
 
+        // set the canvas to the resolution of the screen
+        this.canvas.width = window.innerWidth;
+        this.canvas.height = window.innerHeight;
+
         // start the animation
         window.requestAnimationFrame(() => this.draw());
 
