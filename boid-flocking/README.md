@@ -10,7 +10,7 @@ As with most artificial life simulations, Boids is an example of emergent behavi
 
 ## Demo
 
-[Here](https://bertmaurau.be/projects/visualizations-and-simulations/boid-flocking-simulation/)
+[Here](https://bertmaurau.be/projects/visualizations-and-simulations/boid-flocking/)
 
 
 ## Build

@@ -10,7 +10,7 @@ All of the bounded regions surrounded by toothpicks in the pattern, but not them
 
 ## Demo
 
-[Here](https://bertmaurau.be/projects/visualizations-and-simulations/fractal-toothpick-sequence-visualization/)
+[Here](https://bertmaurau.be/projects/visualizations-and-simulations/fractal-toothpick-sequence/)
 
 
 ## Build

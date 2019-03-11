@@ -1,5 +1,5 @@
 {
-  "name": "boid-flocking-simulation",
+  "name": "starfield",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,6 +18,5 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "vector2d": "^3.0.0"
   }
 }

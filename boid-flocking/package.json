@@ -1,5 +1,5 @@
 {
-  "name": "omar-pols-fractal-toothpick-visualization",
+  "name": "boid-flocking",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,7 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vector2d": "^3.0.0"
+  }
 }
