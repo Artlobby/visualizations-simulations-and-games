@@ -29,7 +29,7 @@ export class RandomWalk extends Context2D {
         this.walker = new Walker(this.context, this.canvas.width / 2, this.canvas.height / 2);
 
         // set the background (just once to keep the "history")
-        this.context.fillStyle = "black";
+        this.context.fillStyle = "white";
         this.context.fillRect(-this.canvas.width / 2, -this.canvas.height / 2, this.canvas.width, this.canvas.height);
 
     }

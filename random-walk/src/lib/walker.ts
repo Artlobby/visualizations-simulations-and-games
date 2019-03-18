@@ -59,7 +59,7 @@ export class Walker {
         // draw the star (circle)
         this.context.beginPath();
         this.context.arc(this.position.x, this.position.y, 5, 0, 2 * Math.PI, true);
-        this.context.fillStyle = 'white';
+        this.context.fillStyle = 'black';
         this.context.fill();
 
     }

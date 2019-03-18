@@ -43,7 +43,7 @@ export class Toothpicks extends Context2D {
     public draw(): void {
 
         // set the background
-        this.context.fillStyle = "black";
+        this.context.fillStyle = "white";
         this.context.fillRect(0, 0, this.canvas.width, this.canvas.height);
 
         // holds the list of the newly generated toothpicks

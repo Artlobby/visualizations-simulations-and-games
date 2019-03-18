@@ -56,7 +56,7 @@ export class Particle {
         this.context.fillStyle = 'blue';
         this.context.fill();
         this.context.lineWidth = 1;
-        this.context.strokeStyle = 'white';
+        this.context.strokeStyle = 'black';
         this.context.stroke();
     }
 

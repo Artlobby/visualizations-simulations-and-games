@@ -72,7 +72,7 @@ export class Toothpick {
         this.context.moveTo(this.a.x, this.a.y);
         this.context.lineTo(this.b.x, this.b.y);
         this.context.lineWidth = 1;
-        this.context.strokeStyle = (this.isNewToothpick ? 'red' : 'white');
+        this.context.strokeStyle = (this.isNewToothpick ? 'red' : 'black');
         this.context.stroke();
     }
 
