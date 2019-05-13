@@ -1,6 +1,6 @@
-# 2D Raytracing
+# 2D Raycasting
 
-A simple 2D raytracing example.
+A simple 2D raycasting example (basic).
 
 ## Demo
 
